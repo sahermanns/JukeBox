@@ -9,3 +9,7 @@ The user interacts with a screen, that screen interacts with the jukebox, the ju
 This simulation has objects; User, Screen, Jukebox, Artist, Song, Song Que, Speakers. Each Objects has attributes and respective behaviors.
 Here is the link to dropbox with my picture.
 https://www.dropbox.com/s/bo8jc8d1gd03bv5/Screenshot%202015-01-14%2009.51.10.png?dl=0
+
+
+1/14/15 2:11pm - Jon
+Added the diagram and updated readme to reflect.
