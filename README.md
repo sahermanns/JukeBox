@@ -13,3 +13,5 @@ https://www.dropbox.com/s/bo8jc8d1gd03bv5/Screenshot%202015-01-14%2009.51.10.png
 
 1/14/15 2:11pm - Jon
 Added the diagram and updated readme to reflect.
+
+1/14/15 3:52 Added all the variables we were going to use for the jukebox function
