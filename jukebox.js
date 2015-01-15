@@ -1,5 +1,3 @@
-<script>
-
 // Jukebox is made up of Artists, as new artsists are constructed they are pushed into the array artists//
  function Jukebox (){
   this.artists =[];
@@ -20,6 +18,13 @@
   this.trackTitle = trackTitle;
   this.albumTitle = albumTitle;
  };
+
+ function randomSong () {
+  var artist = sarahJams.artists[Math.floor(Math.random() * sarahJams.artists.length)];
+  var index = artist.songs[Math.floor(Math.random() * artist.songs.length)];
+  return index.trackTitle + " " + index.albumTitle;
+ }
+
 var sarahJams = new Jukebox ("Sarah's Jams");
 var theShins = new Artist ("The Shins");
 var newSlang = new Song ("New Slang", "Oh, Inverted World");
@@ -31,9 +36,14 @@ var coldWarKids = new Artist("Cold War Kids");
 var miracleMile = new Song("Miracle Mile, Dear Miss Lonelyhearts");
 var fatherJohnMisty = new Artist("Father John Misty");
 var funtimesInBabylon = new Song("Funtimes In Babylon, Fear Fun");
-theShins.addSong(newSlang);
-sarahJams.addArtist(theShins);
-console.log(theShins.songs[0]);
-console.log(sarahJams.artists[0]);
 
-</script>
+sarahJams.addArtist(theShins);
+sarahJams.addArtist(lordHuron);
+sarahJams.addArtist(beirut);
+sarahJams.addArtist(coldWarKids);
+sarahJams.addArtist(fatherJohnMisty);
+
+theShins.addSong(newSlang);
+
+
+console.log(randomSong());
