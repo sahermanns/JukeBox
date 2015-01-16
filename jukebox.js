@@ -20,6 +20,13 @@
   this.trackTitle = trackTitle;
   this.albumTitle = albumTitle;
  };
+  function randomSong () { 
+    var random = sarahJams.artists[Math.floor(Math.random() * 
+    sarahJams.artists.length)]; 
+    var index = random.songs[Math.floor(Math.random() * random.songs.length)]; 
+
+return index.trackTitle + " " + index.albumTitle; 
+} 
 var sarahJams = new Jukebox ("Sarah's Jams");
 
 var theShins = new Artist ("The Shins");
@@ -33,9 +40,9 @@ var endsOfTheEarth = new Song("Ends of the Earth", "Lonesome Dreams");
 var timeToRun = new Song("Time To Run", "Lonesome Dreams");
 
 var beirut = new Artist("Beirut");
-var elephantGun = new Song("Elephant Gun, Gulag Orkestar");
-var santaFe = new Song("Santa Fe", "The Rip Tide");
 var elephantGun = new Song("Elephant Gun", "Gulag Orkestar");
+var santaFe = new Song("Santa Fe", "The Rip Tide");
+var ripTide = new Song("Elephant Gun", "Gulag Orkestar");
 
 var coldWarKids = new Artist("Cold War Kids");
 var miracleMile = new Song("Miracle Mile", "Dear Miss Lonelyhearts");
@@ -43,14 +50,45 @@ var tuxedos = new Song("Tuxedos", "Dear Miss Lonelyhearts");
 var mineIsYours = new Song("Mine is Yours", "Mine is Yours");
 
 var fatherJohnMisty = new Artist("Father John Misty");
-var funtimesInBabylon = new Song("Funtimes In Babylon, Fear Fun");
+var funtimesInBabylon = new Song("Funtimes In Babylon", "Fear Fun");
 var nancyFromNowOn = new Song("Nancy From Now On", "Fear Fun");
 var imWritingaNovel = new Song("I'm Writing a Novel", "Fear Fun");
 
 
 theShins.addSong(newSlang);
+theShins.addSong(caringIsCreepy);
+theShins.addSong(phantomLimb);
+
+lordHuron.addSong(lonesomeDreams);
+lordHuron.addSong(endsOfTheEarth);
+lordHuron.addSong(timeToRun);
+
+beirut.addSong(elephantGun);
+beirut.addSong(santaFe);
+beirut.addSong(ripTide);
+
+coldWarKids.addSong(miracleMile);
+coldWarKids.addSong(tuxedos);
+coldWarKids.addSong(mineIsYours);
+
+fatherJohnMisty.addSong(funtimesInBabylon);
+fatherJohnMisty.addSong(nancyFromNowOn);
+fatherJohnMisty.addSong(imWritingaNovel);
+
 sarahJams.addArtist(theShins);
+sarahJams.addArtist(lordHuron);
+sarahJams.addArtist(beirut);
+sarahJams.addArtist(coldWarKids);
+sarahJams.addArtist(fatherJohnMisty);
+
 console.log(theShins.songs[0]);
+console.log(lordHuron.songs[0]);
+console.log(beirut.songs[0]);
+console.log(coldWarKids.songs[0]);
+console.log(fatherJohnMisty.songs[0]);
+
 console.log(sarahJams.artists[0]);
+console.log(randomSong());
+
 
 
