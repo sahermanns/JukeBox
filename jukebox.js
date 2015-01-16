@@ -1,4 +1,4 @@
-<script>
+
 
 // Jukebox is made up of Artists, as new artsists are constructed they are pushed into the array artists//
  function Jukebox (){
@@ -21,19 +21,36 @@
   this.albumTitle = albumTitle;
  };
 var sarahJams = new Jukebox ("Sarah's Jams");
+
 var theShins = new Artist ("The Shins");
 var newSlang = new Song ("New Slang", "Oh, Inverted World");
+var caringIsCreepy = new Song ("Caring Is Creepy", "Oh, Inverted World");
+var phantomLimb = new Song ("Phantom Limb", "Wincing the Night Away");
+
 var lordHuron = new Artist ("Lord Huron");
-var lonesomeDreams = new Song("Lonesome Dreams, Lonesome Dreams");
+var lonesomeDreams = new Song("Lonesome Dreams", "Lonesome Dreams");
+var endsOfTheEarth = new Song("Ends of the Earth", "Lonesome Dreams");
+var timeToRun = new Song("Time To Run", "Lonesome Dreams");
+
 var beirut = new Artist("Beirut");
 var elephantGun = new Song("Elephant Gun, Gulag Orkestar");
+var santaFe = new Song("Santa Fe", "The Rip Tide");
+var elephantGun = new Song("Elephant Gun", "Gulag Orkestar");
+
 var coldWarKids = new Artist("Cold War Kids");
-var miracleMile = new Song("Miracle Mile, Dear Miss Lonelyhearts");
+var miracleMile = new Song("Miracle Mile", "Dear Miss Lonelyhearts");
+var tuxedos = new Song("Tuxedos", "Dear Miss Lonelyhearts");
+var mineIsYours = new Song("Mine is Yours", "Mine is Yours");
+
 var fatherJohnMisty = new Artist("Father John Misty");
 var funtimesInBabylon = new Song("Funtimes In Babylon, Fear Fun");
+var nancyFromNowOn = new Song("Nancy From Now On", "Fear Fun");
+var imWritingaNovel = new Song("I'm Writing a Novel", "Fear Fun");
+
+
 theShins.addSong(newSlang);
 sarahJams.addArtist(theShins);
 console.log(theShins.songs[0]);
 console.log(sarahJams.artists[0]);
 
-</script>
+
