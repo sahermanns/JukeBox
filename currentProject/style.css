@@ -1,1 +1,16 @@
-/*style sheet for jbHome.html and jbAbout.html each of the is linked to this style sheet and the base reset sheet*/
+
+  body{
+    width: 600px;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-image: url(headphone.png);
+    background-position: top;
+    text-align: center;
+  }
+  form{
+  text-align: center;
+  padding-top:40px;
+  position: relative;
+  left: 340px;
+  top: 20px;
+  }

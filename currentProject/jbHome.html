@@ -2,47 +2,51 @@
 <html>
 <head>
 	<title>JukeBox</title>
-    <link rel="stylesheet" type="text/css" href="styleBase.css">
+    <!--link rel="stylesheet" type="text/css" href="styleBase.css"-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- <link href='http://fonts.googleapis.com/css?family=Yellowtail|Abel|Patrick+Hand|Droid+Serif|Anton' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
-  <form =class "dropdowns">
+  <form class="dropdowns">
       <p>Which artist would you like to listen to?</p>
       <select name="artists">
-        <option value="theShins">The Shins</option>
-        <option value="lordHuron">Lord Huron</option>
-        <option value="beirut">Beirut</option>
-        <option value="coldWarKids">Cold War Kids</option>
-        <option value="fatherJohnMisty">Father John Misty</option>
+        <option id="theShins" value="theShins">The Shins</option>
+        <option id="lordHuron"value="lordHuron">Lord Huron</option>
+        <option id="beirut"value="beirut">Beirut</option>
+        <option id="coldWarKids"value="coldWarKids">Cold War Kids</option>
+        <option id="fatherJohnMisty"value="fatherJohnMisty">Father John Misty</option>
       </select>
+    
+        <img  href="headphone.png">
+
   </form>
-    <form =class "dropdowns">
+    <form class="dropdowns">
       <p>Which song would you like to listen to?</p>
       <select name="songs">
         <div class = "theShins">
-        <option value="newSlang">New Slang, Oh inverted World</option>
-        <option value="caringIsCreepy">Caring is Creepy, Oh inverted world</option>
-        <option value="phantomLimb">Phantom Limb, Wincing the night away</option>
+        <option id="newSland"value="newSlang">New Slang, Oh inverted World</option>
+        <option id="caringIsCreepy"value="caringIsCreepy">Caring is Creepy, Oh inverted world</option>
+        <option id="phantomLimb"value="phantomLimb">Phantom Limb, Wincing the night away</option>
+        </div>
         <div class = "lordHuron">
-        <option value="lonesomeDreams">Lonesome Dreams, Lonesome Dreams</option>
-        <option value="endsOfTheEarth">Ends of the Earth,Lonesome Dreams</option>
-        <option value="timeToRun">Time to Run,Lonesome Dreams</option>
+        <option id="lonesomeDreams"value="lonesomeDreams">Lonesome Dreams, Lonesome Dreams</option>
+        <option id="endsOfTheEarth"value="endsOfTheEarth">Ends of the Earth,Lonesome Dreams</option>
+        <option id="timeToRun"value="timeToRun">Time to Run,Lonesome Dreams</option>
       </div>
         <div class = "beirut">
-        <option value="ripTide"> Rip Tide, The Rip Tide</option>
-        <option value="santaFe"> Santa Fae, The Rip Tide</option>
-        <option value="elephantGun"> Elephant gun, Gulag Orkestar</option>
+        <option id="ripTide" value="ripTide"> Rip Tide, The Rip Tide</option>
+        <option id="santaFae"value="santaFae"> Santa Fae, The Rip Tide</option>
+        <option id="elephantGun"value="elephantGun"> Elephant gun, Gulag Orkestar</option>
       </div>
         <div class = "coldWarKids">
-        <option value="miracleMile">Miracle Mile, Dear Miss Lonelyhearts</option>
-        <option value="tuxedos"> Tuxedos, Dear Miss Lonelyhearts</option>
-        <option value="mineIsYours">Mine is Yours, Mine is Yours</option>
+        <option id="miracleMile"value="miracleMile">Miracle Mile, Dear Miss Lonelyhearts</option>
+        <option id="tuxedos"value="tuxedos"> Tuxedos, Dear Miss Lonelyhearts</option>
+        <option id="mineIsYours"value="mineIsYours">Mine is Yours, Mine is Yours</option>
         </div>
         <div class = "fatherJonMisty">
-        <option value="funTimesInBabylon">Funtimes in Babylon, Fear Fun</option>
-        <option value="nancyFromNowOn">Nancy From Now On, Fear Fun</option>
-        <option value="imWritingaNovel">Im Writing a Novel, Fear Fun</option>
+        <option id="funTimesInBabylon"value="funTimesInBabylon">Funtimes in Babylon, Fear Fun</option>
+        <option id="nancyFromNowOn"value="nancyFromNowOn">Nancy From Now On, Fear Fun</option>
+        <option id="imWritingaNovel"value="imWritingaNovel">Im Writing a Novel, Fear Fun</option>
       </div>
       </select>
   </form>
