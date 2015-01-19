@@ -1,1 +1,24 @@
 /*style sheet for jbHome.html and jbAbout.html each of the is linked to this style sheet and the base reset sheet*/
+#songs {
+	display: none;
+}
+
+.theShins {
+	display: none;
+}
+
+.lordHuron {
+	display: none;
+}
+
+.beirut {
+	display: none;
+}
+
+.coldWarKids {
+	display: none;
+}
+
+.fatherJohnMisty {
+	display: none;
+}

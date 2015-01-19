@@ -7,9 +7,10 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Yellowtail|Abel|Patrick+Hand|Droid+Serif|Anton' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
-  <form =class "dropdowns">
+  <form class="dropdowns">
       <p>Which artist would you like to listen to?</p>
-      <select name="artists">
+      <select id="artists">
+        <option value="choose">-- Choose Artist --</option>
         <option value="theShins">The Shins</option>
         <option value="lordHuron">Lord Huron</option>
         <option value="beirut">Beirut</option>
@@ -17,34 +18,27 @@
         <option value="fatherJohnMisty">Father John Misty</option>
       </select>
   </form>
-    <form =class "dropdowns">
+    <form class="dropdowns">
       <p>Which song would you like to listen to?</p>
-      <select name="songs">
-        <div class = "theShins">
-        <option value="newSlang">New Slang, Oh inverted World</option>
-        <option value="caringIsCreepy">Caring is Creepy, Oh inverted world</option>
-        <option value="phantomLimb">Phantom Limb, Wincing the night away</option>
-        <div class = "lordHuron">
-        <option value="lonesomeDreams">Lonesome Dreams, Lonesome Dreams</option>
-        <option value="endsOfTheEarth">Ends of the Earth,Lonesome Dreams</option>
-        <option value="timeToRun">Time to Run,Lonesome Dreams</option>
-      </div>
-        <div class = "beirut">
-        <option value="ripTide"> Rip Tide, The Rip Tide</option>
-        <option value="santaFe"> Santa Fae, The Rip Tide</option>
-        <option value="elephantGun"> Elephant gun, Gulag Orkestar</option>
-      </div>
-        <div class = "coldWarKids">
-        <option value="miracleMile">Miracle Mile, Dear Miss Lonelyhearts</option>
-        <option value="tuxedos"> Tuxedos, Dear Miss Lonelyhearts</option>
-        <option value="mineIsYours">Mine is Yours, Mine is Yours</option>
-        </div>
-        <div class = "fatherJonMisty">
-        <option value="funTimesInBabylon">Funtimes in Babylon, Fear Fun</option>
-        <option value="nancyFromNowOn">Nancy From Now On, Fear Fun</option>
-        <option value="imWritingaNovel">Im Writing a Novel, Fear Fun</option>
-      </div>
+      <select id="songs">
+        <option>-- Choose Song --</option>
+        <option class="theShins" value="newSlang">New Slang, Oh inverted World</option>
+        <option class="theShins" value="caringIsCreepy">Caring is Creepy, Oh inverted world</option>
+        <option class="theShins" value="phantomLimb">Phantom Limb, Wincing the night away</option>
+        <option class="lordHuron" value="lonesomeDreams">Lonesome Dreams, Lonesome Dreams</option>
+        <option class="lordHuron" value="endsOfTheEarth">Ends of the Earth,Lonesome Dreams</option>
+        <option class="lordHuron" value="timeToRun">Time to Run,Lonesome Dreams</option>
+        <option class="beirut" value="ripTide"> Rip Tide, The Rip Tide</option>
+        <option class="beirut" value="santaFe"> Santa Fae, The Rip Tide</option>
+        <option class="beirut" value="elephantGun"> Elephant gun, Gulag Orkestar</option>
+        <option class="coldWarKids" value="miracleMile">Miracle Mile, Dear Miss Lonelyhearts</option>
+        <option class="coldWarKids" value="tuxedos"> Tuxedos, Dear Miss Lonelyhearts</option>
+        <option class="coldWarKids" value="mineIsYours">Mine is Yours, Mine is Yours</option>
+        <option class="fatherJohnMisty" value="funTimesInBabylon">Funtimes in Babylon, Fear Fun</option>
+        <option class="fatherJohnMisty" value="nancyFromNowOn">Nancy From Now On, Fear Fun</option>
+        <option class="fatherJohnMisty" value="imWritingaNovel">Im Writing a Novel, Fear Fun</option>
       </select>
   </form>
+  <script type="text/javascript" src="jukebox.js"></script>
 </body>
 </html>
