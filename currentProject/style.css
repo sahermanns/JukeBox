@@ -1,1 +1,65 @@
-/*style sheet for jbHome.html and jbAbout.html each of the is linked to this style sheet and the base reset sheet*/
+
+  body{
+    width: 600px;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-image: url(headphone.png);
+    background-position: top;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  form{
+  text-align: center;
+  padding-top:40px;
+  position: relative;
+  left: 340px;
+  top: 20px;
+  }
+  .hometoabout{
+    position: relative;
+    left:330px;
+    top: 300px;
+    font-size: 40px;
+  }
+  .splashpage{
+    background-image: url(jukeboxwholeblack.png);
+    font-size: 90px;
+    font-family: "Lucida" Grande, sans-serif ;
+  }
+  .homedirect{
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+  }
+  .aboutdirect{
+    font-size: 40px;
+    position:relative;
+    right: 200px;
+  }
+  .aboutbody{
+    background-image:none;
+    
+  }
+  .redrockimage{
+    position: relative;
+    top: 20px;
+    left: 300px;
+  }
+  .companytitle{
+    position: relative;
+    left: 300px;
+  }
+
+  .abouttext{
+    padding-left:30px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+  }
+  .fromabout{
+    text-align: center;
+    position: relative;
+    right:10px;
+  }
