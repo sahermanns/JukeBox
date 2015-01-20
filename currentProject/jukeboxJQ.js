@@ -79,36 +79,28 @@ sarahJams.addArtist(coldWarKids);
 sarahJams.addArtist(fatherJohnMisty);
 
 function showSongList () {
-  document.getElementById("artists").onchange = function() {
-    document.getElementById("songs").style.display = "block";
+  $("#songs").show();
 
-    for (var i = 0; i < document.getElementById("songs").length; i++) {
-      document.getElementById("songs")[i].style.display = "none";
-    }
+  $('#songs option').hide();
 
-    var artist = document.getElementById("artists").value;
-    var songs = document.getElementsByClassName(artist);
+  var artist = $("#artists").val();
+  var $songs = $("." + artist);
 
-    for (var i = 0; i < songs.length; i++) {
-      songs[i].style.display = "block";
-    }
-  }
-} 
+  $songs.show();      
+};
 
-var choose = document.getElementById("artists");
-choose.addEventListener('click', showSongList);
+var choose = $("#artists");
+choose.on('change', showSongList);
 
 function playSong () {
-  document.getElementById("songs").onchange = function() {
-    var song = document.getElementById("songs").value;
-    var video = document.getElementById(song);
+  var $song = $("#songs").val();
+  var $video = $('#' + $song);
 
-    video.style.display = "block";
-  }
+  $video.show();
 }
 
-var choose2 = document.getElementById("songs");
-choose2.addEventListener('click', playSong);
+var choose2 = $("#songs");
+choose2.on('change', playSong);
 
 
 
