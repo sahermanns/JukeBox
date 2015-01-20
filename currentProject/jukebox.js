@@ -88,7 +88,6 @@ function showSongList () {
     }
 
     var artist = document.getElementById("artists").value;
-
     var songs = document.getElementsByClassName(artist);
 
     for (var i = 0; i < songs.length; i++) {
@@ -98,8 +97,20 @@ function showSongList () {
 } 
 
 var choose = document.getElementById("artists");
-
 choose.addEventListener('click', showSongList);
+
+function playSong () {
+  document.getElementById("songs").onchange = function() {
+    var song = document.getElementById("songs").value;
+    var video = document.getElementById(song);
+
+    video.style.display = "block";
+  }
+}
+
+var choose2 = document.getElementById("songs");
+choose2.addEventListener('click', playSong);
+
 
 
 
