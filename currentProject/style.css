@@ -9,20 +9,18 @@ background-position: top;
 text-align: center;
 background-color: black;
 color: white;
+margin-right: auto;
+margin-left: auto;
 }
-
 form{
-text-align: center;
-padding-top:40px;
-position: relative;
-left: 340px;
-top: 20px;
+padding-top: 40px;
+margin-right: auto;
+margin-left: auto;
 }
 .hometoabout{
-position: relative;
-left:330px;
-top: 300px;
-font-size: 40px;
+padding-top: 300px;
+margin-right: auto;
+margin-left: auto;
 }
 .splashpage{
 background-image: url(jukeboxwholeblack.png);
@@ -60,16 +58,28 @@ text-align: center;
 position: relative;
 left: 300px;
 }
-.fromabout{
+.formabout{
 text-align: center;
 position: relative;
 right:10px;
 }
-
-#songs {
-	display: none;
+iframe {
+width: 200px;
+height:200px;
+margin-top: 50px;
+margin-right: auto;
+margin-left: auto;
 }
 
+#songs {
+display: none;
+margin-right: auto;
+margin-left: auto;
+}
+#videos{	
+margin-right: auto;
+margin-left: auto;
+}
 .theShins {
 	display: none;
 }
@@ -91,5 +101,48 @@ right:10px;
 }
 
 #newSlang {
+	display: none;
+}
+
+#caringIsCreepy {
+	display: none;
+}
+#phantomLimb {
+	display: none;
+}
+#lonesomeDreams {
+	display: none;
+}
+#endsOfTheEarth {
+	display: none;
+}
+#timeToRun {
+	display: none;
+}
+#ripTide {
+	display: none;
+}
+#santaFe {
+	display: none;
+}
+#elephantGun {
+	display: none;
+}
+#miracleMile {
+	display: none;
+}
+#tuxedos {
+	display: none;
+}
+#mineIsYours {
+	display: none;
+}
+#funTimesInBabylon {
+	display: none;
+}
+#nancyFromNowOn {
+	display: none;
+}
+#imWritingaNovel {
 	display: none;
 }
