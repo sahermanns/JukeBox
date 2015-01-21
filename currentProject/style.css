@@ -40,28 +40,10 @@ right: 200px;
 }
 .aboutbody{
 background-image:none;
-
-}
-.redrockimage{
-position: relative;
-top: 20px;
-left: 300px;
-}
-.companytitle{
-position: relative;
-left: 300px;
-}
-
-.abouttext{
-padding-left:30px;
+margin-right: auto;
+margin-left: auto;
+position:relative;
 text-align: center;
-position: relative;
-left: 300px;
-}
-.formabout{
-text-align: center;
-position: relative;
-right:10px;
 }
 iframe {
 width: 200px;
@@ -70,7 +52,6 @@ margin-top: 50px;
 margin-right: auto;
 margin-left: auto;
 }
-
 #songs {
 display: none;
 margin-right: auto;
@@ -83,27 +64,21 @@ margin-left: auto;
 .theShins {
 	display: none;
 }
-
 .lordHuron {
 	display: none;
 }
-
 .beirut {
 	display: none;
 }
-
 .coldWarKids {
 	display: none;
 }
-
 .fatherJohnMisty {
 	display: none;
 }
-
 #newSlang {
 	display: none;
 }
-
 #caringIsCreepy {
 	display: none;
 }
